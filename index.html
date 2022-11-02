@@ -9,6 +9,22 @@
         #submit{
             margin-left: 45px;
         }
+        .blog-1{
+            background-color: #fbcfe8;
+            border: 3px solid #6ee7b7;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .blog-2{
+            background-color: #fbcfe8;
+            border: 3px solid #6ee7b7;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #home{
+            background-color: hwb(83 21% 10%);
+        }
     </style>
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/517f04ce98.js" crossorigin="anonymous"></script>
@@ -73,7 +89,7 @@
         <!------------------------------ 
             ---------slide header section start
         -------------------------------------------- -->
-        <section class="container bg-success rounded mt-5 pt-5" id="home">
+        <section class="container rounded mt-5 pt-2 bg-succes" id="home">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -103,7 +119,7 @@
                                 <p><small>As the largest online tee time marketplace in the world,</small></p>
                             </div>
                             <div class="col">
-                                <img src="images/6205653_3191222.jpg" class="d-block w-100" alt="...">
+                                <img src="images/6208038_3215099.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
@@ -177,13 +193,64 @@
     <!-- ---------------------------
         ---------------------course section end ---------------->
         <!-- blocg content -->
-        <section>
-            <h1 class="my-y py-5 text-center">Blog</h1>
+        <section class="container" id="blog">
+            <h1 class="my-y py-5 text-center">Welcome to My GolfNow Blog</h1>
+          <div class="blog-1">
+            <h3>Convenience fee</h3>
+            <small class="text-secondary">Author: GolfNow</small>
+            <p>Convenience fees are charged for all tee times booked through the GolfNow website and mobile app. Convenience fees
+                have
+                a broad range depending on location and are charged per player, per tee time and are reflected in the total price on
+                your tee time reservation at the time of checkout.
+            
+                As a GolfPass+member, convenience fees will be waived on your first 10 bookings (up to 4 players per booking) on
+                GolfNow.com and the GolfNow mobile app per year of your membership. Members must book all tee time reservations
+                while
+                signed into the same account used to purchase the GolfPass+ membership in order to receive the waived convenience
+                fees
+                benefit at checkout. Other taxes may apply on tee time reservations. The Waived Convenience Fees benefit will be
+                applied
+                at the time that a qualified reservation is made.
+            
+                As a GolfPass+ VIP member, convenience fees will be waived on all your bookings on GolfNow.com or GolfNow mobile
+                app.Members must book all tee time reservations while signed into the same account used to purchase the GolfPass+
+                VIP
+                 membership in order to receive the waived convenience fees benefit at checkout. Other taxes may apply on tee time
+                reservations. The Waived Convenience Fees benefit will be applied at the time that a qualified reservation is made.
+            </p>
+
+          </div>
+          <div class="blog-2">
+            <h3>Weather policy</h3>
+            <small class="text-secondary">Author: GolfNow</small>
+            <p>Any unplayed reservation can be cancelled and refunded if the golf course is closed on the day of play. To cancel a
+                reservation due to weather, go to your View Reservations page and click “Modify Players or Cancel” on the
+                reservation
+                you would like to cancel. Select the number of players you wish to remove from your reservation and select "Weather"
+                for
+                the reason of cancellation, then click “Submit Cancellation.” If you are eligible for a refund, please allow 5-7
+                business days for processing.
+            
+                Hot Deals reservations are non-refundable once your round has begun.
+            
+                Tee time reservations paid at the golf course adhere to the golf course’s rain check policy once the round has
+                begun.
+                Please see the golf course pro shop to be issued a potential rain check.
+            
+                GolfPass+ members are covered under Cancellation Protection tee times, which allows GolfPass+ members to cancel or
+                modify their tee time reservation online at least one (1) hour prior to their scheduled tee time, for any reason,
+                without penalty, up to ten (10) times per year of their membership. GolfPass+ members will receive a GolfNow credit
+                equivalent to the green fees due for the modified or cancelled tee time, which will be automatically applied to the
+                member's GolfNow account and can be found under Account Payment options.  These credits can be used toward a future
+                Hot
+                Deal booking</p>
+          </div>
         </section>
         
-        <!-- blog section start -->
+        <!-- blog section end -->
+        <!-- faq section -->
         <section class="container my-5" id="FAQ">
-            <h1 class="text-b text-center my-5">FAQ</h1>
+            <h1 class="text-b text-center my-5">GolfNow Basics</h1>
            <div class="row">
             <div class="col col-lg-6 col-md-2 col-12 mt-5">
                 <div class="accordion" id="accordionExample">
@@ -191,19 +258,17 @@
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
-                                faq question Item #1
+                                Why don’t I get an email after I sign up?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes control the
-                                overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                                go
-                                within the <code>GolfNow</code>, though the transition does limit overflow.
+                                <strong>GolfNow emails are designed to provide GolfNow members.</strong>
+                                with the best deals currently available at courses near them, but
+                                tee time pricing and availability are limited. We work hard to make sure that all of our members have a chance to take
+                                advantage of great tee time deals, so emails are sent on a rotation that ensures everyone has an opportunity to receive
+                                our best deals. If you do not receive an email immediately after signing up, one will be arriving to you soon.<code>GolfNow</code>, though the transition does limit overflow.
                             </div>
                         </div>
                     </div>
@@ -211,20 +276,15 @@
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                faq question Item #2
+                                Why am I required to create a username?
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                                collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes control the
-                                overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                                go
-                                within the <code>GolfNow</code>, though the transition does limit overflow.
+                                <strong>We recently updated our username format requirements</strong>. As a result, those that did not comply with our updated
+                                requirements were assigned a temporary username. You may update your username at any time within your account. Usernames
+                                may be used for participation in exciting new features and programs on GolfNow<code>GolfNow</code>
                             </div>
                         </div>
                     </div>
@@ -232,20 +292,15 @@
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                faq question #3
+                                Why do tee times seem to appear and disappear?
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                                collapse
-                                plugin adds the appropriate classes that we use to style each element. These classes control the
-                                overall
-                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                                go
-                                within the <code>GolfNow</code>, though the transition does limit overflow.
+                                <strong>When you click on a tee time and select the number of players</strong>the tee time is put on hold for five (5) minutes. This
+                                allows time to complete the booking process. If you do not complete the process, the tee time will be removed from hold
+                                and reappear on the website.<code>GolfNow</code>
                             </div>
                         </div>
                     </div>
@@ -256,12 +311,9 @@
             </div>
            </div>
         </section>
-        <!-- blog section end -->
+        <!-- faq question -->
         <!-- subscribe section -->
         <section style="height: 350px ;" class="container rounded-3 d-flex align-items-center justify-content-center bg-info">
-            <div>
-                <a href=""></a>
-            </div>
             <div>
                 <h2>LET'S STAY IN GOLF</h2>
                 <P>Get updates on special offer and more</P>
@@ -269,7 +321,7 @@
                     <div class="mb-3">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                   <span id="submit"><button type="submit" class="btn btn-primary ms-5">Submit</button></span>
+                   <span id="submit"><button type="submit" class="btn btn-primary ms-5">Subscribe</button></span>
                 </form>
             </div>
         </section>
